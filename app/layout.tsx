@@ -1,6 +1,7 @@
 import '@mantine/core/styles.css';
 
 import React from 'react';
+<<<<<<< HEAD
 import {
   ColorSchemeScript,
   MantineProvider,
@@ -10,6 +11,9 @@ import {
   MediaQuery,
   useMantineTheme,
 } from '@mantine/core';
+=======
+import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
+>>>>>>> d0d24039ae0b4dd13cada41a1109a0859a1bf901
 import { theme } from '../theme';
 
 export const metadata = {
@@ -22,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const theme = useMantineTheme();
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.svg" />

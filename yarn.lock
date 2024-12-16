@@ -2345,9 +2345,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "@mantine/core@npm:^7.14.3":
   version: 7.14.3
   resolution: "@mantine/core@npm:7.14.3"
+=======
+"@mantine/core@npm:7.15.1":
+  version: 7.15.1
+  resolution: "@mantine/core@npm:7.15.1"
+>>>>>>> d0d24039ae0b4dd13cada41a1109a0859a1bf901
   dependencies:
     "@floating-ui/react": "npm:^0.26.28"
     clsx: "npm:^2.1.1"
@@ -2356,19 +2362,25 @@ __metadata:
     react-textarea-autosize: "npm:8.5.5"
     type-fest: "npm:^4.27.0"
   peerDependencies:
-    "@mantine/hooks": 7.14.3
+    "@mantine/hooks": 7.15.1
     react: ^18.x || ^19.x
     react-dom: ^18.x || ^19.x
-  checksum: 10c0/c2624114bf98c13b5762fef64fc65b71715e66706eb715ba1c42c8a99676ccff15d9dfd61e252bd652e1c1700825e9b7677d91996e5c77d1d5cd4026b154390e
+  checksum: 10c0/e045e52c14f0e4566af18d3df307a6681801641ec84a449e3c8613e63cbc4503659cf404d6dabb2fa8d6323c57f248850cd0eb953f37e6f05dd404dab2c1943a
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "@mantine/hooks@npm:^7.14.3":
   version: 7.14.3
   resolution: "@mantine/hooks@npm:7.14.3"
+=======
+"@mantine/hooks@npm:7.15.1":
+  version: 7.15.1
+  resolution: "@mantine/hooks@npm:7.15.1"
+>>>>>>> d0d24039ae0b4dd13cada41a1109a0859a1bf901
   peerDependencies:
     react: ^18.x || ^19.x
-  checksum: 10c0/3da1425c583f47f6a8eb0ea826e86dca60443f07e1c482f41995b6e04c05f328c8f261ea9a5e4b0c27d42a9c69a7061c733363be6dcd48fbf933c72377ae6cb1
+  checksum: 10c0/cf011e52e989ddbaea443330389d0754ecc1fb0906212904720987130a69acfbbe608d8060434c7305fb3587653d3b7d1bc2c9161c56e06226d38b2501cba94b
   languageName: node
   linkType: hard
 
@@ -8360,8 +8372,13 @@ __metadata:
     "@babel/core": "npm:^7.24.7"
     "@eslint/js": "npm:^9.15.0"
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.3.1"
+<<<<<<< HEAD
     "@mantine/core": "npm:^7.14.3"
     "@mantine/hooks": "npm:^7.14.3"
+=======
+    "@mantine/core": "npm:7.15.1"
+    "@mantine/hooks": "npm:7.15.1"
+>>>>>>> d0d24039ae0b4dd13cada41a1109a0859a1bf901
     "@next/bundle-analyzer": "npm:^14.2.4"
     "@storybook/nextjs": "npm:^8.1.10"
     "@storybook/react": "npm:^8.1.10"
